@@ -5,7 +5,6 @@
 
 .logo-container img {
   max-width: 120px;
-
 }
 
 .search-bar {
@@ -16,8 +15,14 @@
   width: 80%;
 }
 
-.video-item img {
-  max-width: 64px;
+.video-detail .video-title {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.video-detail .video-description {
+  /*font-style: italic;*/
+  font-size: 14px;
 }
 
 .video-detail .details {
@@ -25,6 +30,10 @@
   padding: 10px;
   border: 1px solid  #ddd;
   border-radius: 4px;
+}
+
+.video-item img {
+  max-width: 64px;
 }
 
 .list-group-item {
